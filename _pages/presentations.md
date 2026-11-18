@@ -6,6 +6,14 @@ nav: true
 nav_order: 2.5
 ---
 
+## 2027
+
+<a href="https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/487187" style="text-decoration: none;">
+  <strong style="color: var(--global-text-color); font-weight: 700;">Influences of Asian Emissions and Stratospheric Transport on Background Ozone over the Western US, 1980–2026</strong>
+</a>
+
+[107th AMS Annual Meeting](https://annual.ametsoc.org/2027/) · [Session 11B](https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Session/75613) · Denver, CO, USA · January 13, 2027 · **Oral Presentation · Speaker · Upcoming**
+
 ## 2026
 
 <a href="https://ozoneexchange.org/conference-details/program/" style="text-decoration: none;">
