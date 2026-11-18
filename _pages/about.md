@@ -41,11 +41,15 @@ Outside of research, I enjoy playing table tennis, tennis, and [chess](https://w
 
 {% include news.liquid limit=true %}
 
-<h2 style="clear: both;"><strong>Awards &amp; Recognition</strong></h2>
+<h2 style="clear: both;"><strong>Selected Awards &amp; Recognition</strong></h2>
 
 <div class="table-responsive">
-  <table class="table table-sm table-borderless" aria-label="Awards and recognition">
+  <table class="table table-sm table-borderless" aria-label="Selected awards and recognition">
     <tbody>
+      <tr>
+        <th scope="row" style="white-space: nowrap;">Oct&nbsp;2026</th>
+        <td>Student grant (<strong style="font-weight: 700;">$2,200</strong>) from the Colorado Air Quality Enterprise</td>
+      </tr>
       <tr>
         <th scope="row" style="white-space: nowrap;">Jul&nbsp;2024</th>
         <td>
@@ -56,7 +60,7 @@ Outside of research, I enjoy playing table tennis, tennis, and [chess](https://w
       <tr>
         <th scope="row" style="width: 20%; white-space: nowrap;">Jun&nbsp;2024</th>
         <td style="white-space: nowrap;">
-          <a href="https://mp.weixin.qq.com/s/obf6gDEYK-1H8tNYYLlKGg">Outstanding Graduation</a>
+          <a href="https://mp.weixin.qq.com/s/obf6gDEYK-1H8tNYYLlKGg">Outstanding Graduate</a>
           (<strong style="font-weight: 700;">5 out of 340</strong> at Academy /
           <strong style="font-weight: 700;">1 out of 43</strong> at Department)
         </td>

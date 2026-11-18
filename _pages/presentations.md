@@ -9,10 +9,10 @@ nav_order: 2.5
 ## 2027
 
 <a href="https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/487187" style="text-decoration: none;">
-  <strong style="color: var(--global-text-color); font-weight: 700;">Influences of Asian Emissions and Stratospheric Transport on Background Ozone over the Western US, 1980–2026</strong>
+  <strong style="color: var(--global-text-color); font-weight: 700;">Influences of Asian Emissions and Stratospheric Transport on Background Ozone over the Western US, 1980–2025</strong>
 </a>
 
-[107th AMS Annual Meeting](https://annual.ametsoc.org/2027/) · [Session 11B](https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Session/75613) · Denver, CO, USA · January 13, 2027 · **Oral Presentation · Speaker · Upcoming**
+[107th AMS Annual Meeting](https://annual.ametsoc.org/2027/) · [Session 11B](https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Session/75613) · Denver, CO, USA · Jan. 13, 2027 · **Oral Presentation · Speaker · Upcoming**
 
 <p>
   Conference abstract:
@@ -25,7 +25,7 @@ nav_order: 2.5
   <strong style="color: var(--global-text-color); font-weight: 700;">Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During 1980–2025</strong>
 </a>
 
-[Intermountain West Ozone Exchange](https://ozoneexchange.org/) · [Session 8](https://ozoneexchange.org/conference-details/program/session-8-unique-geographic-challenges-for-intermountain-west/) · Colorado, USA · October 27, 2026 · **Oral Presentation · Speaker**
+[Intermountain West Ozone Exchange](https://ozoneexchange.org/) · [Session 8](https://ozoneexchange.org/conference-details/program/session-8-unique-geographic-challenges-for-intermountain-west/) · Colorado, USA · Oct. 27, 2026 · **Oral Presentation · Speaker**
 
 <p>
   Slides:
@@ -42,7 +42,7 @@ nav_order: 2.5
   <strong style="color: var(--global-text-color); font-weight: 700;">Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During 1980–2025</strong>
 </a>
 
-[GFDL–Princeton 71st Anniversary Symposium](https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/) · [Poster Session](https://www.gfdl.noaa.gov/wp-content/uploads/2026/10/71st-symposium-poster-list.pdf) · Princeton, NJ, USA · October 23, 2026 · **Poster Presentation · Presenter**
+[GFDL–Princeton 71st Anniversary Symposium](https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/) · [Poster Session](https://www.gfdl.noaa.gov/wp-content/uploads/2026/10/71st-symposium-poster-list.pdf) · Princeton, NJ, USA · Oct. 23, 2026 · **Poster Presentation · Presenter**
 
 <p>
   Poster:
@@ -71,7 +71,7 @@ nav_order: 2.5
   <strong style="color: var(--global-text-color); font-weight: 700;">The Health Burden of Air Pollution in the UK: A Modelling Study Using Updated Exposure-Risk Associations</strong>
 </a>
 
-[UK Public Health Science 2023](<https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)00508-1/fulltext>) · London, UK · November 24, 2023 · **Poster Presentation · Co-author**
+[UK Public Health Science 2023](<https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)00508-1/fulltext>) · London, UK · Nov. 24, 2023 · **Poster Presentation · Co-author**
 
 <p>
   Conference abstract:
