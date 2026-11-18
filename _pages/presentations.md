@@ -52,7 +52,7 @@ nav_order: 2.5
 
 <p>
   Conference abstract published in
-  <a href="https://doi.org/10.1016/S0140-6736(23)02099-8" style="text-decoration: none;"><em style="color: inherit;">The Lancet, 402(Suppl. 1), S66</em></a>
+  <a href="https://doi.org/10.1016/S0140-6736(23)02099-8" style="text-decoration: none;"><em style="color: inherit;">The Lancet, 402(Suppl. 1), S66 (2023)</em></a>
   <a
       href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ncSvGVEAAAAJ&citation_for_view=ncSvGVEAAAAJ:d1gkVwhDpl0C"
       aria-label="Google Scholar citations"
