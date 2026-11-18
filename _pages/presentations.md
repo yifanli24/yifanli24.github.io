@@ -24,7 +24,7 @@ nav_order: 2.5
   <strong style="color: var(--global-text-color); font-weight: 700;">Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During 1980–2025</strong>
 </a>
 
-[GFDL–Princeton 71st Anniversary Symposium](https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/) · [Poster Session](https://www.gfdl.noaa.gov/wp-content/uploads/2026/10/71st-symposium-poster-list.pdf) · Princeton, NJ, USA · October 23, 2026 · **Poster Presentation · Presenter**
+[GFDL–Princeton 71st Anniversary Symposium](https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/) · [Poster Session](https://www.gfdl.noaa.gov/wp-content/uploads/2026/10/71st-symposium-poster-list.pdf) · Princeton, NJ, USA · October 23, 2026 · **Poster Presentation · Presenter** · [Poster]({{ '/assets/pdf/yifan-li-gfdl-princeton-2026-poster.pdf' | relative_url }})
 
 <div aria-hidden="true" style="height: 1rem;"></div>
 
