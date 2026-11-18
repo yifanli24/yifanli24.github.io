@@ -12,7 +12,7 @@ nav_order: 2.5
   <strong style="color: var(--global-text-color); font-weight: 700;">Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During 1980–2025</strong>
 </a>
 
-[Intermountain West Ozone Exchange](https://ozoneexchange.org/) · [Session 8](https://ozoneexchange.org/conference-details/program/session-8-unique-geographic-challenges-for-intermountain-west/) · Colorado, USA · October 27, 2026 · **Oral Presentation · Speaker** · [Slides](https://ozoneexchange.org/wp-content/uploads/2026/10/S8.5-IMW_Ozone_Exchange_Session8_Yifan_Li_PU-1.pdf) · [Poster](https://ozoneexchange.org/conference-details/program/poster-session/poster-8-recent-tropospheric-ozone-trends-over-the-western-us-role-of-asian-emission-reduction-and-climate-variability/)
+[Intermountain West Ozone Exchange](https://ozoneexchange.org/) · [Session 8](https://ozoneexchange.org/conference-details/program/session-8-unique-geographic-challenges-for-intermountain-west/) · Colorado, USA · October 27, 2026 · **Oral Presentation · Speaker** · [Slides](https://ozoneexchange.org/wp-content/uploads/2026/10/S8.5-IMW_Ozone_Exchange_Session8_Yifan_Li_PU-1.pdf)
 
 <p style="padding: 0.75rem 1rem; border-left: 3px solid var(--global-theme-color, #b509ac); background-color: rgba(181, 9, 172, 0.08); border-radius: 0.25rem;">
   Awarded a <strong style="font-weight: 700;">$2,200 student grant</strong> from the Colorado Air Quality Enterprise.
