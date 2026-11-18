@@ -9,7 +9,6 @@ cv_pdf: /assets/pdf/yifan-li-cv.pdf
 
 <p>
   <a href="{{ '/assets/pdf/yifan-li-cv.pdf' | relative_url }}" class="btn btn-sm z-depth-0" download>Download CV (PDF)</a>
-  <a href="{{ '/assets/tex/yifan-li-cv.tex' | relative_url }}" class="btn btn-sm z-depth-0" download>LaTeX Source</a>
 </p>
 
 <iframe
