@@ -36,6 +36,8 @@
 \renewcommand{\headrulewidth}{0pt}
 \titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
 \titlespacing*{\section}{0pt}{10pt}{5pt}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
 
 \newcommand{\datedentry}[3][0.28]{%
   \noindent
@@ -46,6 +48,18 @@
 \newcommand{\publication}[1]{%
   \Needspace{4\baselineskip}
   \par\noindent #1\par
+}
+\newcommand{\prestitle}[1]{\mbox{\fontsize{9.3}{11.5}\selectfont\textbf{#1}}}
+% \presentation{title (may contain \href)}{type, venue}{location}{date}{links/notes (may be empty)}
+\newcommand{\presentation}[5]{%
+  \Needspace{4\baselineskip}
+  \par\noindent\makebox[1.1em][l]{\textbullet}%
+  \parbox[t]{\dimexpr\linewidth-1.1em\relax}{%
+    \prestitle{#1}\par\vspace{1pt}%
+    \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X r@{}}
+      \textit{#2} & \textbf{#3} \\
+      #5 & #4
+    \end{tabularx}}\par\vspace{3pt}
 }
 \newcommand{\researchsummary}[1]{%
   {\itshape #1\par}\vspace{4pt}
@@ -73,51 +87,68 @@
 
 \section*{Publications}
 
-\publication{\textbf{Li, Y.}, \& Cao, J. (2026). Diagnosing the increase in East Asian summer monsoon precipitation under a low-emissions scenario from an energy perspective (\textit{Manuscript in Preparation}).}
+\subsection*{Peer-Reviewed Publications}
 
-\researchsummary{Using multiple climate model simulations together with moisture budget and moist static energy budget analyses, we diagnose the increase in East Asian summer precipitation under the SSP1-2.6 scenario relative to other scenarios. Our results suggest that reduced anthropogenic aerosols over East Asia increase surface solar radiation and evaporation, thereby enhancing convective activity and large-scale upward moisture transport, intensifying the East Asian summer monsoon circulation, and increasing rainfall.}
+\publication{Marais, E. A., Kelly, J. M., Vohra, K., \textbf{Li, Y.}, Lu, G., Hina, N., \& Rowe, E. C. (2023). Impact of legislated and best available emission control measures on UK particulate matter pollution, premature mortality, and nitrogen-sensitive habitats. \textit{GeoHealth, 7}(10), e2023GH000910. \url{https://doi.org/10.1029/2023GH000910}}
 
-\publication{\textbf{Li, Y.}, Lin, M., Naik, V., \& Horowitz, L. (2026). Recent tropospheric ozone trends in the northern mid-latitudes: roles of Asian emission reductions and climate variability (\textit{Manuscript in Preparation}).}
+\subsection*{Manuscripts in Preparation}
+
+\publication{\textbf{Li, Y.}, \& Lin, M. (2026). A hiatus in the long-term rise of western US background ozone: Roles of Asian emissions, stratospheric influence, and climate warming.}
 
 \researchsummary{Using high-elevation observations and the GFDL climate model, we show that reductions in Asian emissions are the primary driver of the decreasing free-tropospheric ozone trend over the western US. Stratosphere-troposphere transport (STT) strongly modulates the interannual variability of free-tropospheric ozone over the western US. Climate variability modulates ozone anomalies over the western US by influencing STT through changes in the meandering of the polar jet, rather than the Pacific subtropical jet.}
 
-\publication{\textbf{Li, Y.}, \& Shen, X. (2026). Using causal inference to quantify the roles of tropospheric wave sources and stratospheric preconditioning in sudden stratospheric warmings (\textit{Manuscript in Preparation}).}
+\publication{\textbf{Li, Y.}, \& Cao, J. (2026). Diagnosing the increase in East Asian summer monsoon precipitation under a low-emissions scenario from an energy perspective.}
+
+\researchsummary{Using multiple climate model simulations together with moisture budget and moist static energy budget analyses, we diagnose the increase in East Asian summer precipitation under the SSP1-2.6 scenario relative to other scenarios. Our results suggest that reduced anthropogenic aerosols over East Asia increase surface solar radiation and evaporation, thereby enhancing convective activity and large-scale upward moisture transport, intensifying the East Asian summer monsoon circulation, and increasing rainfall.}
+
+\publication{\textbf{Li, Y.}, \& Shen, X. (2026). Using causal inference to quantify the roles of tropospheric wave sources and stratospheric preconditioning in sudden stratospheric warmings.}
 
 \researchsummary{Apply a physically based causal inference framework to quantify the relative roles of tropospheric wave sources and stratospheric preconditioning in influencing the occurrence of sudden stratospheric warmings (SSWs). Our results indicate that both factors play essential roles in the occurrence of SSWs. Approximately one-third of the effect of tropospheric wave sources and one-half of the effect of stratospheric preconditioning on stratospheric polar vortex variability are mediated by stratospheric wave-activity fluxes.}
-
-\publication{Marais, E. A., Kelly, J. M., Vohra, K., \textbf{Li, Y.}, Lu, G., Hina, N., \& Rowe, E. C. (2023). Impact of legislated and best available emission control measures on UK particulate matter pollution, premature mortality, and nitrogen-sensitive habitats. \textit{GeoHealth, 7}(10), e2023GH000910. \url{https://doi.org/10.1029/2023GH000910}}
 
 \newpage
 
 \section*{Presentations}
 
-\publication{\href{https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/487187}{\textcolor{black}{\textbf{Influences of Asian Emissions and Stratospheric Transport on Background Ozone over the Western US, \mbox{1980--2026}}}}\\
-  Scheduled oral presentation, \href{https://annual.ametsoc.org/2027/}{107th AMS Annual Meeting}, Denver, CO, USA, Jan.~13,~2027.}
+\presentation{\href{https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/487187}{\textcolor{black}{Influences of Asian Emissions and Stratospheric Transport on Background Ozone over the Western US, \mbox{1980--2025}}}}
+  {Oral Presentation (Speaker), 107th AMS Annual Meeting}
+  {Denver, CO, USA}
+  {Jan 2027 (scheduled)}
+  {\href{https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/487187}{Abstract}.}
 
-\publication{\href{https://ozoneexchange.org/conference-details/program/}{\textcolor{black}{\textbf{Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During \mbox{1980--2025}}}}\\
-  Oral presentation, \href{https://ozoneexchange.org/}{Intermountain West Ozone Exchange}, Loveland, CO, USA, Oct.~27,~2026. \href{https://ozoneexchange.org/wp-content/uploads/2026/10/S8.5-IMW_Ozone_Exchange_Session8_Yifan_Li_PU-1.pdf}{Slides}.\\
-  Student grant: \textbf{\$2,200}, Colorado Air Quality Enterprise.}
+\presentation{\href{https://ozoneexchange.org/conference-details/program/}{\textcolor{black}{Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During \mbox{1980--2025}}}}
+  {Oral Presentation (Speaker), Intermountain West Ozone Exchange}
+  {Loveland, CO, USA}
+  {Oct 2026}
+  {\href{https://ozoneexchange.org/wp-content/uploads/2026/10/S8.5-IMW_Ozone_Exchange_Session8_Yifan_Li_PU-1.pdf}{Slides}. Student grant: \textbf{\$2,200} from Colorado Air Quality Enterprise.}
 
-\publication{\href{https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/}{\textcolor{black}{\textbf{Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During \mbox{1980--2025}}}}\\
-  Poster presentation, \href{https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/}{GFDL--Princeton 71st Anniversary Symposium}, Princeton, NJ, USA, Oct.~23,~2026. \href{https://yifanli24.github.io/assets/pdf/yifan-li-gfdl-princeton-2026-poster.pdf}{Poster}.}
+\presentation{\href{https://www.gfdl.noaa.gov/gfdl-princeton-71st-anniversary-symposium/}{\textcolor{black}{Asian and Stratospheric Influences on Springtime Background Ozone Over the Western US During \mbox{1980--2025}}}}
+  {Poster Presentation (Presenter), GFDL--Princeton 71st Anniversary Symposium}
+  {Princeton, NJ, USA}
+  {Oct 2026}
+  {\href{https://yifanli24.github.io/assets/pdf/yifan-li-gfdl-princeton-2026-poster.pdf}{Poster}.}
 
-\publication{\href{https://meetingorganizer.copernicus.org/EGU26/EGU26-1055.html}{\textcolor{black}{\textbf{Estimating High-Resolution Top-Down Nitrogen Oxides Emissions for Improving Air Quality and Public Health in China}}}\\
-  Oral presentation (co-author), \href{https://www.egu26.eu/}{EGU General Assembly 2026}, Vienna, Austria, May~5,~2026. Abstract: \href{https://doi.org/10.5194/egusphere-egu26-1055}{\textit{\mbox{EGU26-1055}}}.}
+\presentation{\href{https://meetingorganizer.copernicus.org/EGU26/EGU26-1055.html}{\textcolor{black}{Estimating High-Resolution Top-Down Nitrogen Oxides Emissions for Improving Air Quality and Public Health in China}}}
+  {Oral Presentation (Co-author), EGU General Assembly 2026}
+  {Vienna, Austria}
+  {May 2026}
+  {\href{https://doi.org/10.5194/egusphere-egu26-1055}{Abstract}.}
 
-\publication{\href{https://doi.org/10.1016/S0140-6736(23)02099-8}{\textcolor{black}{\textbf{The Health Burden of Air Pollution in the UK: A Modelling Study Using Updated Exposure-Risk Associations}}}\\
-  Poster presentation (co-author), \href{https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)00508-1/fulltext}{UK Public Health Science 2023}, London, UK, Nov.~24,~2023. Conference abstract: \href{https://doi.org/10.1016/S0140-6736(23)02099-8}{\textit{The Lancet, 402(Suppl. 1), S66 (2023)}}; \href{https://maraisresearchgroup.co.uk/Presentations/Vohra-TheLancet-2023.pdf}{poster}.}
+\presentation{\href{https://doi.org/10.1016/S0140-6736(23)02099-8}{\textcolor{black}{The Health Burden of Air Pollution in the UK: A Modelling Study Using Updated Exposure-Risk Associations}}}
+  {Poster Presentation (Co-author), UK Public Health Science 2023}
+  {London, UK}
+  {Nov 2023}
+  {\href{https://doi.org/10.1016/S0140-6736(23)02099-8}{Abstract}; \href{https://maraisresearchgroup.co.uk/Presentations/Vohra-TheLancet-2023.pdf}{Poster}.}
 
-\section*{Selected Honours \& Awards}
+\section*{Selected Awards \& Recognition}
 
-\datedentry{Outstanding Graduation (only \textbf{5} out of 340 at Academy or \textbf{1} out of 43 at Department)}{June~2024}
-\datedentry[0.55]{First Class NUIST Scholarship (\textbf{top 5\%})}{Oct.~2021 \& Oct.~2022 \& Oct.~2023 \& June~2024}
-\datedentry[0.55]{NUIST Merit Student Honor (\textbf{top 5\%})}{Oct.~2021 \& Oct.~2022 \& Oct.~2023}
+\datedentry{Student grant (\textbf{\$2,200}) from Colorado Air Quality Enterprise}{Oct.~2026}
+\datedentry{First Class Honours awarded from the University of Reading}{July~2024}
+\datedentry[0.12]{Outstanding Graduate (only \textbf{5} out of 340 at Academy or \textbf{1} out of 43 at Department)}{June~2024}
+\datedentry[0.36]{First Class NUIST Scholarship (\textbf{Top 5\%})}{Oct.~2021, 2022, 2023; June~2024}
+\datedentry[0.36]{NUIST Merit Student Honour (\textbf{Top 5\%})}{Oct.~2021, 2022, 2023}
 \datedentry{Second prize for the 8th Internet+ National College Student Innovation and Entrepreneurship Competition (\textbf{National-level Award})}{June~2023}
 \datedentry{Third prize for National Undergraduate Research Opportunities Programme}{May~2022}
-\datedentry{Second prize for NUIST 16th Mathematical Contest in Modelling}{May~2022}
 \datedentry{Third prize for China Meteorological Modernization Science and Technology Innovation Competition (\textbf{National-level Award})}{May~2021}
-\datedentry{Third prize for Challenge Cup Academic Science and Technology Competition}{Mar.~2021}
-\datedentry{Third prize for the NUIST 4th Advanced Mathematics Competition}{Mar.~2021}
 
 \section*{Teaching Assistant Experience}
 
@@ -126,7 +157,8 @@
 
 \section*{Service}
 
-\datedentry{\textbf{Assistant Counsellor} for Undergraduates, Class of 2029}{Sep.~2021 -- Nov.~2021}
+\datedentry{\textbf{Alumni Liaison} for Undergraduates, Class of 2024}{June~2024 -- Present}
+\datedentry{\textbf{Assistant Counsellor} for Undergraduates, Class of 2025}{Sep.~2021 -- Nov.~2021}
 \datedentry{\textbf{Epidemic Prevention Volunteer}}{Aug.~2021 -- Oct.~2021}
 
 \end{document}
