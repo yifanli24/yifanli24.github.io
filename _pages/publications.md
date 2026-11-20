@@ -30,3 +30,24 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<script>
+  // The site-wide max_author_limit is 5; show only the authors up to Yifan Li for this entry.
+  document.addEventListener("DOMContentLoaded", function () {
+    var author = document.querySelector("#marais2023emissioncontrols .author");
+    if (!author) return;
+    var shown = ["Eloise A. Marais", "Jamie M. Kelly", "Karn Vohra"];
+    var hidden = ["Gongda Lu", "Naila Hina", "Ed C. Rowe"];
+    var collapsed = hidden.length + " more authors";
+    author.innerHTML = shown.join(", ") + ", <em>Yifan Li</em>, and ";
+    var more = document.createElement("span");
+    more.className = "more-authors";
+    more.title = "click to view " + collapsed;
+    more.textContent = collapsed;
+    more.addEventListener("click", function () {
+      more.title = "";
+      more.textContent = more.textContent === collapsed ? hidden.join(", ") : collapsed;
+    });
+    author.appendChild(more);
+  });
+</script>
