@@ -35,7 +35,7 @@ I am a third-year Ph.D. student in the Atmospheric and Oceanic Sciences (AOS) Pr
 
 I received dual Bachelor of Science degrees in Atmospheric Sciences from the [University of Reading](https://www.reading.ac.uk/meteorology/) (UoR, UK) and [Nanjing University of Information Science and Technology](https://www.reading.ac.uk/about/nuist.aspx) (NUIST, China), graduating with [First-Class Honours](https://studyabroad.reading.ac.uk/incoming/grade-system/). During my undergraduate studies, I was advised by [Prof. Jian Cao](https://www.researchgate.net/profile/Jian-Cao-23) (NUIST) and [Dr. Xiaomeng Shen](https://www.researchgate.net/profile/Xiaocen-Shen) (UoR). I was also a visiting student in the [Atmospheric Composition and Air Quality Group](https://maraisresearchgroup.co.uk/people.html) at University College London (UCL) during the summer of 2022, under the supervision of [Prof. Eloise Marais](https://profiles.ucl.ac.uk/77783-eloise-marais).
 
-Outside of research, I enjoy playing table tennis, tennis, and [chess](https://www.chess.com/member/evan000024).
+Outside of research, I enjoy playing basketball, tennis, and [chess](https://www.chess.com/member/evan000024).
 
 <h2 style="clear: both;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;"><strong>News</strong></a></h2>
 
@@ -48,7 +48,7 @@ Outside of research, I enjoy playing table tennis, tennis, and [chess](https://w
     <tbody>
       <tr>
         <th scope="row" style="white-space: nowrap;">Oct&nbsp;2026</th>
-        <td>Student grant (<strong style="font-weight: 700;">$2,200</strong>) from the Colorado Air Quality Enterprise</td>
+        <td>Student Grant (<strong style="font-weight: 700;">$2,200</strong>), Colorado Air Quality Enterprise (Intermountain West Ozone Exchange)</td>
       </tr>
       <tr>
         <th scope="row" style="white-space: nowrap;">Jul&nbsp;2024</th>
