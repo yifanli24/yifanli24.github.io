@@ -48,7 +48,7 @@ Outside of research, I enjoy playing basketball, tennis, and [chess](https://www
     <tbody>
       <tr>
         <th scope="row" style="white-space: nowrap;">Oct&nbsp;2026</th>
-        <td>Student Grant (<strong style="font-weight: 700;">$2,200</strong>), Colorado Air Quality Enterprise (Intermountain West Ozone Exchange)</td>
+        <td>Student Grant (<strong style="font-weight: 700;">$2,200</strong>) from the Colorado Air Quality Enterprise (IMW Ozone Exchange)</td>
       </tr>
       <tr>
         <th scope="row" style="white-space: nowrap;">Jul&nbsp;2024</th>
